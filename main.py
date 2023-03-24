@@ -21,6 +21,6 @@ with open('cuvinte.in', 'r') as c:
                 print(d[i], "->", end=' ')
             print(d[len(d) - 1])
         else:
-            print("Cuvantul nu este acceptat")
+            print("Cuvantul nu este acceptat.")
 if p in f:
     print("Cuvant vid acceptat:", p)
